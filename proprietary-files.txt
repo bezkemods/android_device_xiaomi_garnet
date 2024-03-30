@@ -1468,17 +1468,35 @@ vendor/lib64/vendor.display.color@1.6.so|f9f914003858e641fd19d41676465167e5b2005
 vendor/lib64/vendor.display.color@1.7.so|982805fb0f7a68df6a796173d6d3bb24a7dbaa7a
 vendor/lib64/vendor.display.postproc@1.0.so|d4698e4d21e0a65611f2e508a841749447c71498
 
-# Dolby Atmos
-vendor/lib/libdapparamstorage.so
-vendor/lib/libdeccfg.so
+# Dolby Atmos - from nuwa HyperOS 2.0.1.0.VMBEUXM
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|7324d7e47a8266502e99c1599635dc48feb25202
+vendor/bin/hw/vendor.dolby.media.c2@1.0-service|4a88666d7f072ce6ba4147198fe3aee1eebf1481
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
+vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc|bc1e134139c7dd0e5b4f98952aa51c629ea66dc7
 vendor/lib/libstagefright_soft_ddpdec.so
 vendor/lib/libstagefrightdolby.so
 vendor/lib/soundfx/libhwdap.so
 vendor/lib/soundfx/libswgamedap.so
 vendor/lib/soundfx/libswvqe.so
 vendor/lib/vendor.dolby.hardware.dms@2.0.so
+vendor/lib64/libcodec2_soft_ac4dec.so|bc4d4a81c88d58b86d79f28405998a59e863493f
+vendor/lib64/libcodec2_soft_ddpdec.so|18dde1c96a1e82b9c47c4b38e756a98d24f501ac
+vendor/lib64/libcodec2_store_dolby.so|3749d05dc119cd7c06d536cafbe7a79101386bec
+vendor/lib64/libdapparamstorage.so|36998deb47a165f5aabd756443b70f29288c66ef
+vendor/lib64/libdeccfg.so|39132d7f1422121cf808ed369beda4d1e99ac399
+vendor/lib64/libdlbdsservice.so|3ffdfc7fbf2fcd0e39dbc1ad8d12aa11b3be8948
+vendor/lib64/libdlbpreg.so|42657310ed4b6fe69ba3805005d5a022dac86b91
+vendor/lib64/libspatializerparamstorage.so|12acd14beacfa2e22015e4a9b21dd6cb8c026d4d
 vendor/lib64/libstagefright_soft_ddpdec.so
 vendor/lib64/libstagefrightdolby.so
+vendor/lib64/soundfx/libdlbvol.so|a27e811538f79c3a12ca7d6b56f226ddb87a9db1
+vendor/lib64/soundfx/libhwdap.so|05d8406ffb1af4bfc28b8096e1a1c212851ca0cb
+vendor/lib64/soundfx/libswgamedap.so|27ed480b20fb7304336e71078e0b7a359f14538e
+vendor/lib64/soundfx/libswspatializer.so|fcbdc29385c8ef7695b092abc771a12b765dd2d6
+vendor/lib64/soundfx/libswvqe.so|68202724ad363a3a4164cc67f9078ab326cedfb8
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|0ba0b9aec991d44053979517bc21492acbcc09c6
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so|e1aced930abf83580d980d40f9adb7aa3b0f80c4
+vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml|c8095f649de19b80271fb429b4b6b439297a0678
 
 # Dolby Vision
 vendor/bin/hw/dolbycodec2
