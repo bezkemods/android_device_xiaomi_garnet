@@ -1020,4 +1020,7 @@
 
     <!-- Disables pocket mode lock -->
     <bool name="config_pocketModeSupported">false</bool>
+    
+    <!--Useful if you want to improve signal reception -->
+    <bool name="config_ignoreRssnrSignalLevel">true</bool>
 </resources>
