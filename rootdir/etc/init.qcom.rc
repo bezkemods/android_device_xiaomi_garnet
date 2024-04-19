@@ -1005,3 +1005,11 @@ on property:sys.boot_completed=1
     # Restrict permissions to socket file
     # to hide Magisk & co.
     chmod 440 /proc/net/unix
+
+service sim-restart /system/bin/init.sim.restart.sh
+    class main
+    user root
+    oneshot
+    disabled
+on property:sys.boot_completed=1
+    start sim-restart
