@@ -1469,10 +1469,6 @@ vendor/lib64/vendor.display.color@1.7.so|982805fb0f7a68df6a796173d6d3bb24a7dbaa7
 vendor/lib64/vendor.display.postproc@1.0.so|d4698e4d21e0a65611f2e508a841749447c71498
 
 # Dolby Atmos
-vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
-vendor/etc/dolby/dax-default.xml
-vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
-vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml
 vendor/lib/libdapparamstorage.so
 vendor/lib/libdeccfg.so
 vendor/lib/libstagefright_soft_ddpdec.so
@@ -1481,21 +1477,13 @@ vendor/lib/soundfx/libhwdap.so
 vendor/lib/soundfx/libswgamedap.so
 vendor/lib/soundfx/libswvqe.so
 vendor/lib/vendor.dolby.hardware.dms@2.0.so
-vendor/lib64/libdapparamstorage.so
-vendor/lib64/libdeccfg.so
-vendor/lib64/libdlbdsservice.so
 vendor/lib64/libstagefright_soft_ddpdec.so
 vendor/lib64/libstagefrightdolby.so
-vendor/lib64/soundfx/libhwdap.so
-vendor/lib64/soundfx/libswgamedap.so
-vendor/lib64/soundfx/libswvqe.so
-vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
-vendor/lib64/vendor.dolby.hardware.dms@2.0.so
 
 # Dolby Vision
 vendor/bin/hw/dolbycodec2
 vendor/etc/dolby_vision.cfg
-vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc
+vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:vendor/etc/init/dolbycodec2.rc
 vendor/lib64/c2.dolby.avc.dec.so
 vendor/lib64/c2.dolby.avc.sec.dec.so
 vendor/lib64/c2.dolby.client.so
@@ -1893,6 +1881,29 @@ vendor/lib64/libqcodec2_utils.so
 vendor/lib64/libqcodec2_v4l2codec.so
 vendor/lib64/libvideotxr.so
 vendor/lib64/qti.video.utils.videobufferlayout.so
+
+# Media (Dolby Audio) - from nuwa HyperOS 1.0.6.0.UMBMIXM
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|67be4fdc6e15b56e4ebd74f7a50b34d8d1e4209b|57d9ee0b1bbe883ccaf8bdc27c35e18dbfa27903
+vendor/bin/hw/vendor.dolby.media.c2@1.0-service|f4bcd0776be21da47cd1e0cccf838d841d1c7914
+vendor/etc/dolby/dax-default.xml|ed462fc232f09bd2caca3a4e1875a45d47f6b63b
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
+vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc|05ae03d6fb9ee3a601545113ff1c89c549e3b5cb
+vendor/lib64/libcodec2_soft_ac4dec.so|bc4d4a81c88d58b86d79f28405998a59e863493f
+vendor/lib64/libcodec2_soft_ddpdec.so|18dde1c96a1e82b9c47c4b38e756a98d24f501ac
+vendor/lib64/libcodec2_store_dolby.so|3749d05dc119cd7c06d536cafbe7a79101386bec
+vendor/lib64/libdapparamstorage.so|122582222b40a974f9c9bb3b3f268123ff052ba1
+vendor/lib64/libdeccfg.so|cc268f0a323b162450d3ad6941e9b1c7954a3a31
+vendor/lib64/libdlbdsservice.so|79f28068990457247c6cbdb582768f631062dfa4
+vendor/lib64/libdlbpreg.so|42657310ed4b6fe69ba3805005d5a022dac86b91
+vendor/lib64/libspatializerparamstorage.so|12acd14beacfa2e22015e4a9b21dd6cb8c026d4d
+vendor/lib64/soundfx/libdlbvol.so|8ef979e2d0768fd1f1cc1b88b2c6c5e03d57600c
+vendor/lib64/soundfx/libhwdap.so|e4f7c9bc2fac777642ca5f6089d60412198b293e
+vendor/lib64/soundfx/libswgamedap.so|7e2a69c32d2af7cc817f910e7147114aa268dbc5
+vendor/lib64/soundfx/libswspatializer.so|4156088e5c7cd76bfae9b37454d6918ec80d4b8d
+vendor/lib64/soundfx/libswvqe.so|ecad3cb1b52adcf1572b25f33f3ca23bd1053e9d
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|60104a214265522f2163838279678ae1f66b90fc
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so|240a515a19ed9e51e0e92d7f99eccd9218c1f61e
+vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml|c8095f649de19b80271fb429b4b6b439297a0678
 
 # Media Config
 vendor/etc/media_codecs_parrot_v0.xml
