@@ -1017,4 +1017,7 @@
 
     <!-- Turbulence effect -->
     <bool name="config_mediaControlsTurbulenceByDefault">false</bool>
+
+    <!-- Disables pocket mode lock -->
+    <bool name="config_pocketModeSupported">false</bool>
 </resources>
