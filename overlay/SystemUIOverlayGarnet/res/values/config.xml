@@ -12,7 +12,4 @@
 
     <!-- Whether usage of the proximity sensor during doze is supported -->
     <bool name="doze_proximity_sensor_supported">false</bool>
-
-    <!-- Bottom margin size when fingerprint in display is active -->
-    <dimen name="keyguard_indication_margin_bottom">8dp</dimen>
 </resources>
