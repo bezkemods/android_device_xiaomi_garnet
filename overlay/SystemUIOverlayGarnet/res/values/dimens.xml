@@ -25,4 +25,6 @@
      <dimen name="physical_volume_up_button_center_screen_location_y">750px</dimen>
      <dimen name="physical_volume_down_button_center_screen_location_y">900px</dimen>
 
+    <!-- Pixel pitch of the device. um/px -->
+    <item name="pixel_pitch" format="float" type="dimen">56.96</item>
 </resources>
