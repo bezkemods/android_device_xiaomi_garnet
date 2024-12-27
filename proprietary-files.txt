@@ -1886,16 +1886,16 @@ vendor/lib64/qti.video.utils.videobufferlayout.so
 # Media (Dolby Audio) - from nuwa HyperOS 1.0.6.0.UMBMIXM
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|7324d7e47a8266502e99c1599635dc48feb25202
 vendor/bin/hw/vendor.dolby.media.c2@1.0-service|4a88666d7f072ce6ba4147198fe3aee1eebf1481
-vendor/etc/dolby/dax-default.xml|091dcfd86742a54c074993e33acae8146257c674
+vendor/etc/dolby/dax-default.xml|8455ee5589d38e8d9b3e56b18251efccfa285214
 vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
-vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc|1ea8b363e94fd4f5410cadceb30de8229fb38045
+vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc|05ae03d6fb9ee3a601545113ff1c89c549e3b5cb
 vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml|c8095f649de19b80271fb429b4b6b439297a0678
 vendor/lib64/libcodec2_soft_ac4dec.so|bc4d4a81c88d58b86d79f28405998a59e863493f
 vendor/lib64/libcodec2_soft_ddpdec.so|18dde1c96a1e82b9c47c4b38e756a98d24f501ac
 vendor/lib64/libcodec2_store_dolby.so|3749d05dc119cd7c06d536cafbe7a79101386bec
-vendor/lib64/libdapparamstorage.so|36998deb47a165f5aabd756443b70f29288c66ef
-vendor/lib64/libdeccfg.so|39132d7f1422121cf808ed369beda4d1e99ac399
-vendor/lib64/libdlbdsservice.so|928c2f3072999ade295f401a380680be74745e4d
+vendor/lib64/libdapparamstorage.so|122582222b40a974f9c9bb3b3f268123ff052ba1
+vendor/lib64/libdeccfg.so|cc268f0a323b162450d3ad6941e9b1c7954a3a31
+vendor/lib64/libdlbdsservice.so|79f28068990457247c6cbdb582768f631062dfa4
 vendor/lib64/libdlbpreg.so|42657310ed4b6fe69ba3805005d5a022dac86b91
 vendor/lib64/libspatializerparamstorage.so|12acd14beacfa2e22015e4a9b21dd6cb8c026d4d
 vendor/lib64/soundfx/libdlbvol.so|8ef979e2d0768fd1f1cc1b88b2c6c5e03d57600c
