@@ -1472,30 +1472,30 @@ vendor/lib64/vendor.display.postproc@1.0.so|d4698e4d21e0a65611f2e508a841749447c7
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|7324d7e47a8266502e99c1599635dc48feb25202
 vendor/bin/hw/vendor.dolby.media.c2@1.0-service|4a88666d7f072ce6ba4147198fe3aee1eebf1481
 vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
-vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc|bc1e134139c7dd0e5b4f98952aa51c629ea66dc7
-vendor/lib/libstagefright_soft_ddpdec.so
-vendor/lib/libstagefrightdolby.so
-vendor/lib/soundfx/libhwdap.so
-vendor/lib/soundfx/libswgamedap.so
-vendor/lib/soundfx/libswvqe.so
-vendor/lib/vendor.dolby.hardware.dms@2.0.so
+vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc|05ae03d6fb9ee3a601545113ff1c89c549e3b5cb
+vendor/lib/libstagefright_soft_ddpdec.so|691859e8693405f3a9b635fc862c4e5e6b7e6157
+vendor/lib/libstagefrightdolby.so|c9d3009eaf4c7642d2ed5ccfc86d89de3e5bcb68
+vendor/lib/soundfx/libhwdap.so|eb0fc383e5c75843b287d3a3fe5dad312d5a743e
+vendor/lib/soundfx/libswgamedap.so|3d3b70ed99509d05bd4e4e95591080045e200395
+vendor/lib/soundfx/libswvqe.so|0a695591906012b15232d9c2377b360780900cde
+vendor/lib/vendor.dolby.hardware.dms@2.0.so|6480de3e5318f21f6a2864e5c84d57282d93e81d
 vendor/lib64/libcodec2_soft_ac4dec.so|bc4d4a81c88d58b86d79f28405998a59e863493f
 vendor/lib64/libcodec2_soft_ddpdec.so|18dde1c96a1e82b9c47c4b38e756a98d24f501ac
 vendor/lib64/libcodec2_store_dolby.so|3749d05dc119cd7c06d536cafbe7a79101386bec
-vendor/lib64/libdapparamstorage.so|36998deb47a165f5aabd756443b70f29288c66ef
-vendor/lib64/libdeccfg.so|39132d7f1422121cf808ed369beda4d1e99ac399
-vendor/lib64/libdlbdsservice.so|3ffdfc7fbf2fcd0e39dbc1ad8d12aa11b3be8948
+vendor/lib64/libdapparamstorage.so|122582222b40a974f9c9bb3b3f268123ff052ba1
+vendor/lib64/libdeccfg.so|cc268f0a323b162450d3ad6941e9b1c7954a3a31
+vendor/lib64/libdlbdsservice.so|79f28068990457247c6cbdb582768f631062dfa4
 vendor/lib64/libdlbpreg.so|42657310ed4b6fe69ba3805005d5a022dac86b91
 vendor/lib64/libspatializerparamstorage.so|12acd14beacfa2e22015e4a9b21dd6cb8c026d4d
-vendor/lib64/libstagefright_soft_ddpdec.so
-vendor/lib64/libstagefrightdolby.so
-vendor/lib64/soundfx/libdlbvol.so|a27e811538f79c3a12ca7d6b56f226ddb87a9db1
-vendor/lib64/soundfx/libhwdap.so|05d8406ffb1af4bfc28b8096e1a1c212851ca0cb
-vendor/lib64/soundfx/libswgamedap.so|27ed480b20fb7304336e71078e0b7a359f14538e
-vendor/lib64/soundfx/libswspatializer.so|fcbdc29385c8ef7695b092abc771a12b765dd2d6
-vendor/lib64/soundfx/libswvqe.so|68202724ad363a3a4164cc67f9078ab326cedfb8
-vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|0ba0b9aec991d44053979517bc21492acbcc09c6
-vendor/lib64/vendor.dolby.hardware.dms@2.0.so|e1aced930abf83580d980d40f9adb7aa3b0f80c4
+vendor/lib64/libstagefright_soft_ddpdec.so|5a95219b9f783560e2f332cf69781f0331280231
+vendor/lib64/libstagefrightdolby.so|17ca97430e51f5bb072f4aa6be0b6c694017a903
+vendor/lib64/soundfx/libdlbvol.so|8ef979e2d0768fd1f1cc1b88b2c6c5e03d57600c
+vendor/lib64/soundfx/libhwdap.so|e4f7c9bc2fac777642ca5f6089d60412198b293e
+vendor/lib64/soundfx/libswgamedap.so|7e2a69c32d2af7cc817f910e7147114aa268dbc5
+vendor/lib64/soundfx/libswspatializer.so|4156088e5c7cd76bfae9b37454d6918ec80d4b8d
+vendor/lib64/soundfx/libswvqe.so|ecad3cb1b52adcf1572b25f33f3ca23bd1053e9d
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|60104a214265522f2163838279678ae1f66b90fc
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so|240a515a19ed9e51e0e92d7f99eccd9218c1f61e
 vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml|c8095f649de19b80271fb429b4b6b439297a0678
 
 # Dolby Vision
@@ -2214,7 +2214,7 @@ vendor/bin/hw/vendor.qti.psiclient@1.0-service
 vendor/etc/init/vendor.qti.psiclient@1.0-service.rc
 
 # QCC - from ingot-user 14 UKQ1.231121.127 127 release-keys
-system_ext/app/QCC/QCC.apk|1c54fc34506c733b7aa5ec8aaa05dcf594709f16
+system_ext/app/QCC/QCC.apk|1aba9650f4191a36fb22c17962fcb9d8473c7dd8
 system_ext/bin/qccsyshal@1.2-service|1d3fa5feff11e463204d31927cfb659f707989e1
 system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc|7279d09cf4d6f594dbab5c288ec16101bd668a95
 system_ext/lib/libqcc.so|8b80af0d59660690fc9195ca7371e03c2362b77e
@@ -2237,18 +2237,18 @@ system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so|9663f4512a1e33956a
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so|db1ea124c0f42fcc1a814d69308d4f9522012e1b
 system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so|15a47e8d6f3746e3cb3baa91577f206a1089edd5
 system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so|ffccfde321f48e390c5af8d546e1c7cdf23f9152
-vendor/bin/qcc-trd|146a8d4ba56aebee8056f988159358943dc148c9
+vendor/bin/qcc-trd|c96c50f94a9c5d9df9ad2221fca4051c4eb35523
 vendor/etc/init/init.qdmastats.rc|d7ddb87faaedd900f1756064fe756d50efed7ca9
 vendor/lib/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so|9ea1d644a75ce5adc105e96ab0c4e7447f798909
 vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so|85eac46d2148e9c0e6ab98413af67f7cff88405d
 vendor/lib/vendor.qti.hardware.qccsyshal@1.1.so|7aee35addf200e9bca849cb03027950db56285ce
 vendor/lib/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|d33bd680a58fc09ba713ba5ab603ac0eadd6be38
 vendor/lib/vendor.qti.hardware.qccvndhal@1.0.so|f4da1f260d83881b5712beb262691f69f7d258b1
-vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so|459d506b20124520f5d650a7b30c9a490514a878
-vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|ef866bab2186db1b2c09477e36fef20945fa671e
-vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so|0677ebfe099cdaa6c3776d0bd5318044a4220918
-vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|304ce0a1571f218ba16d0812221e4b2fae52a6d9
-vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|bfddf0a295b391bc1ed7961d547e9b56e3aa1b9c
+vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so|7f8e3b8c3f3d17546837e64e5d5a3e0bf875ac63
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|c09ae26cf1bbca216efca2ba56de271a32021594
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.1.so|56b450439b81166a76cea07bbe87309b84810526
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|f5c0a9329d5a4c99e907c1fa04e820252ba27f73
+vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|b19e61df2741277c2e976842db2b54ca8d845893
 
 # QCOM system daemon
 vendor/bin/qcom-system-daemon
